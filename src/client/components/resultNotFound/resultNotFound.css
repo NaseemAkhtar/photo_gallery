@@ -1,0 +1,17 @@
+.result_not_found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: calc(100vh - 260px);
+}
+.result_not_found h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #777;
+    text-align: center;
+}
+
+.result_not_found img {
+    max-width: 250px;
+}

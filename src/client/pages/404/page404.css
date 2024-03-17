@@ -1,0 +1,12 @@
+.page_not_found{
+    height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page_not_found h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: #777;
+    line-height: 105px;
+}

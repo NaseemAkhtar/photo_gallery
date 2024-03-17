@@ -1,0 +1,52 @@
+header{
+    background: #000;
+}
+.header_block{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+.header_block .logo {
+    flex: 0 0 auto;
+    font-size: 40px;
+    line-height: 30px;
+}
+.header_block .logo a {
+    text-decoration: none;
+    color: #fff;
+}
+.header_block .logo span {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 26px;
+}
+.header_block nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_block nav > a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+.header_block sup {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    right: -9px;
+    top: -10px;
+    font-size: 10px;
+    background: red;
+    color: #fff;
+    font-weight: 500;
+}
